@@ -112,7 +112,7 @@ function TodoCreate() {
         </InsertFormPositioner>
       )}
       <CircleButton onClick={onToggle} open={open}>
-        <MdAdd />
+        <MdAdd style={{marginTop:'8px'}}/>
       </CircleButton>
     </>
   );
